@@ -8,23 +8,51 @@ display: block;}
 
 ul {width: 300px;
 margin-left: auto;
-margin-right: auto;}
+margin-right: auto;
+font-size: 22px;
+background-color: aliceblue;}
 
-ol {width: 1000px;
+ol {width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+font-size: 22px;
+background-color: aliceblue;}
+    
+
+.mid {width: 1050px;
     margin-left: auto;
     margin-right: auto;}
 
-
-.mid {width: fit-content;
-    margin-left: auto;
-    margin-right: auto;}
-
-h2 {text-align: center;}
+h2 {text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: -10px;
+font-size: xx-large;
+background-color: aliceblue;}
 
 h1 {text-align: center;
     font-size: 50px;
     color: white;
-    background-color: brown;}
+    background-color: brown;
+font-size: xx-large;}
 
-    .tab
-    {background-color: blue;}
+#home:hover {color: red;}
+
+#home {text-decoration: none;
+font-size: xx-large;
+color: black;
+background-color: rgba(240, 248, 255, 0.603);
+padding-left: 200px;
+padding-right: 200px;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: -22px;}
+
+p {font-size: 22px;
+background-color: aliceblue;
+margin-bottom: -18px;}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJyZWFkfGVufDB8fDB8fHww) 
+
+}
