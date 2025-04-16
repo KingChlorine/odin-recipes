@@ -1,22 +1,29 @@
-h1 {text-align: center;}
+h1 {text-align: center;
+box-sizing: border-box;
+margin-left: 141px;
+margin-right: 141px;
+font-size: 50px;
+color:  #f4f0eb;
+background-color: brown;
+margin-bottom: auto;
+margin-top: 50px;}
 
-div {display: flex;
-justify-content: center;}
 
 img {margin: auto;
-display: block;}
+display: block;
+margin: auto;}
 
 ul {width: 300px;
 margin-left: auto;
 margin-right: auto;
 font-size: 22px;
-background-color: aliceblue;}
+background-color:  #f4f0eb}
 
 ol {width: 950px;
     margin-left: auto;
     margin-right: auto;
 font-size: 22px;
-background-color: aliceblue;}
+background-color:  #f4f0eb}
     
 
 .mid {width: 1050px;
@@ -28,31 +35,35 @@ padding-top: 20px;
 padding-bottom: 20px;
 margin-top: -10px;
 font-size: xx-large;
-background-color: aliceblue;}
+background-color:  #f4f0eb}
 
-h1 {text-align: center;
+
+#home:hover {color: black;}
+
+#home {text-align: center;
+    box-sizing: border-box;
+    margin-left: 141px;
+    margin-right: 141px;
+    margin-bottom: 50px;
+    padding-top: 0px;
     font-size: 50px;
-    color: white;
-    background-color: brown;
-font-size: xx-large;}
+    background-color:  #f4f0eb;
+    padding-left: 30px;
+    padding-right: 898px;
+   
+    text-decoration: none;
+    color: brown;
+    margin-top: -15px;
 
-#home:hover {color: red;}
 
-#home {text-decoration: none;
-font-size: xx-large;
-color: black;
-background-color: rgba(240, 248, 255, 0.603);
-padding-left: 200px;
-padding-right: 200px;
-padding-top: 20px;
-padding-bottom: 20px;
-margin-top: -22px;}
+}
 
 p {font-size: 22px;
-background-color: aliceblue;
+background-color:  #f4f0eb;
 margin-bottom: -18px;}
 
 body {
     background-image: url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJyZWFkfGVufDB8fDB8fHww) 
 
 }
+
