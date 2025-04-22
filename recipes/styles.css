@@ -1,12 +1,10 @@
 h1 {text-align: center;
 box-sizing: border-box;
-margin-left: 141px;
-margin-right: 141px;
 font-size: 50px;
 color:  #f4f0eb;
 background-color: brown;
-margin-bottom: auto;
-margin-top: 50px;}
+margin: auto;
+}
 
 
 img {margin: auto;
@@ -37,7 +35,6 @@ box-sizing: border-box;}
 h2 {text-align: center;
 padding-top: 20px;
 padding-bottom: 20px;
-margin-top: -10px;
 font-size: xx-large;
 background-color:  #f4f0eb;
 margin: auto;}
@@ -45,20 +42,15 @@ margin: auto;}
 
 #home:hover {color: black;}
 
-#home {text-align: center;
-    box-sizing: border-box;
-    margin-left: 141px;
-    margin-right: 141px;
-    margin-bottom: 50px;
-    padding-top: 0px;
+#home {
+    width: 1050px;
+    margin: auto;
     font-size: 50px;
     background-color:  #f4f0eb;
-    padding-left: 30px;
-    padding-right: 898px;
-   
     text-decoration: none;
     color: brown;
-    margin-top: -15px;
+    display: block;
+
 
 
 }
@@ -71,7 +63,7 @@ width: 300px;
 padding-left: 20px;}
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJyZWFkfGVufDB8fDB8fHww) 
-
+    background-image: url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJyZWFkfGVufDB8fDB8fHww); 
+margin: 0;
 }
 
