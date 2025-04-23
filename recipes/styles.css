@@ -1,31 +1,38 @@
 h1 {text-align: center;
 box-sizing: border-box;
 font-size: 50px;
-color:  #f4f0eb;
-background-color: brown;
+color:  rgb(238, 237, 237);
+background-color: rgb(109, 109, 215);
 margin: auto;
+width: 100vw;
+
 }
 
 
 img {margin: auto;
 display: block;
-margin: auto;}
+margin: auto;
+width: 1050px;
+aspect-ratio: 1;}
 
 ul {width: 300px;
 margin: auto;
 font-size: 22px;
-background-color:  #f4f0eb;
+background-color:  rgb(238, 237, 237);
 padding-left: 375px;
 padding-right: 375px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 ol {width: 1050px;
     margin: auto;
     font-size: 22px;
-    background-color:  #f4f0eb;
+    background-color: rgb(238, 237, 237);
     padding-left: 50px;
-  
-box-sizing: border-box;}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+    padding-bottom: 50px;
+    }
     
 
 .mid {width: 1050px;
@@ -36,34 +43,41 @@ h2 {text-align: center;
 padding-top: 20px;
 padding-bottom: 20px;
 font-size: xx-large;
-background-color:  #f4f0eb;
-margin: auto;}
+background-color:  rgb(238, 237, 237);
+margin: auto;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width:1050px}
 
 
-#home:hover {color: black;}
+#home:hover {color: rgb(255, 255, 255);}
 
 #home {
-    width: 1050px;
+   
     margin: auto;
     font-size: 50px;
-    background-color:  #f4f0eb;
+    background-color: rgb(238, 237, 237);;
     text-decoration: none;
-    color: brown;
+    color: black;
     display: block;
+    position:fixed;
+    padding-left: 30px;
+    padding-right: 280px;
 
 
 
 }
 
 p {font-size: 22px;
-background-color:  #f4f0eb;
+background-color:  rgb(238, 237, 237);
 margin: auto;
 box-sizing: border-box;
 width: 300px;
-padding-left: 20px;}
+padding-left: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+width: 1050px;}
 
 body {
-    background-image: url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJyZWFkfGVufDB8fDB8fHww); 
+    background-image: url(https://media.istockphoto.com/id/1399931897/vector/white-marble-texture-background-used-in-design-for-skin-tile-wallpaper-interiors-backdrop.jpg?s=612x612&w=0&k=20&c=DjVPzwZlABt2pk1ue094xXOIko_8kOLxlKkgZgk1Se8=); 
 margin: 0;
 }
 

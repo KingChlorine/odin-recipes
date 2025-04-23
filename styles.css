@@ -1,33 +1,37 @@
 h1 {text-align: center;
 font-size: 50px;
 color: white;
-background-color: brown;
+background-color: rgb(109, 109, 215);
 margin-top: 0;
 }
 
 
-ul  {width: 260px;
+ul  {width: fit-content;
 margin-left: auto;
 margin-right: auto;
-font-size: 30px;
-background-color: rgba(165, 42, 42, 0.628);
+font-size: 50px;
 color: black;
 padding-bottom: 20px;
 padding-top: 20px;
 margin-top: 100px;
 list-style: none;
-background-color: aliceblue;
+padding: 0;
+line-height: 100px;
+text-align: center;
+
 }
 
-a:hover {font-size: 30px;
-color: brown;} 
+a:hover {font-size: 50px;
+color: rgb(156, 155, 155)} 
 
 a {color: black;
 text-decoration: none;}
 
 body {background-color: brown;
-background-image: url(https://images.unsplash.com/photo-1523294587484-bae6cc870010?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGJyZWFkfGVufDB8fDB8fHww) ;
+background-image: url(https://media.istockphoto.com/id/1399931897/vector/white-marble-texture-background-used-in-design-for-skin-tile-wallpaper-interiors-backdrop.jpg?s=612x612&w=0&k=20&c=DjVPzwZlABt2pk1ue094xXOIko_8kOLxlKkgZgk1Se8=) ;
 margin: 0;
 ;}
 
 h2 {background-color: blue;}
+
+
