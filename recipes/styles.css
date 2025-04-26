@@ -26,15 +26,15 @@ margin: auto;
 
 img {margin: auto;
 display: block;
-margin: auto;
 width: 1050px;
 aspect-ratio: 1;}
 
-ul {width: 300px;
+ul {width: 1050px;
 margin: auto;
 font-size: 22px;
 background-color:  rgb(238, 237, 237);
 font-family: Verdana, Geneva, Tahoma, sans-serif;
+box-sizing: border-box;
 }
 
 ol {width: 1050px;
@@ -43,12 +43,16 @@ ol {width: 1050px;
     background-color: rgb(238, 237, 237);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
+    padding-bottom: 50px;
     }
     
 
 .mid {width: 1050px;
     margin-left: auto;
-    margin-right: auto;}
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-left: 15px;
+    padding-right: 15px;}
 
 h2 {text-align: center;
 padding-top: 20px;
