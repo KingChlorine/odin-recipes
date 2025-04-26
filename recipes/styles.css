@@ -1,13 +1,25 @@
-h1 {text-align: center;
-
+h1 {
 font-size: 50px;
 color:  rgb(238, 237, 237);
 background-color: rgb(109, 109, 215);
+display: inline-block;
+padding-top: 0px;
 margin: auto;
-width: 100vw;
-padding-right: 100%;
 
 
+
+
+}
+
+#banner {background-color: rgb(109, 109, 215);
+    min-width: 1050px;
+   box-sizing: border-box;
+   height: 59px;
+   position: fixed;
+   width: 100vw;
+   text-align: center;
+   
+   
 
 }
 
@@ -22,8 +34,6 @@ ul {width: 300px;
 margin: auto;
 font-size: 22px;
 background-color:  rgb(238, 237, 237);
-padding-left: 375px;
-padding-right: 375px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -31,10 +41,8 @@ ol {width: 1050px;
     margin: auto;
     font-size: 22px;
     background-color: rgb(238, 237, 237);
-    padding-left: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing: border-box;
-    padding-bottom: 52px;
     }
     
 
@@ -49,35 +57,29 @@ font-size: xx-large;
 background-color:  rgb(238, 237, 237);
 margin: auto;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-width:1050px}
+}
 
 
-#home:hover {color: rgb(255, 255, 255);}
+.home:hover {color: rgb(255, 255, 255);}
 
-#home {
+.home {
    
-    margin: auto;
+
     font-size: 50px;
-    background-color: rgb(238, 237, 237);;
     text-decoration: none;
     color: black;
-    display: block;
-    position:fixed;
-    padding-left: 30px;
-    padding-right: 280px;
-
-
-
+    position: absolute;
+    margin-left: -600px;
+    margin-right: 0px;
+   
 }
 
 p {font-size: 22px;
 background-color:  rgb(238, 237, 237);
 margin: auto;
 box-sizing: border-box;
-width: 300px;
-padding-left: 20px;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-width: 1050px;}
+}
 
 body {
     background-image: url(https://media.istockphoto.com/id/1399931897/vector/white-marble-texture-background-used-in-design-for-skin-tile-wallpaper-interiors-backdrop.jpg?s=612x612&w=0&k=20&c=DjVPzwZlABt2pk1ue094xXOIko_8kOLxlKkgZgk1Se8=); 
