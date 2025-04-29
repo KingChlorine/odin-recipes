@@ -11,13 +11,14 @@ margin: auto;
 
 }
 
-#banner {background-color: rgb(109, 109, 215);
+#banner { */background-color: rgb(109, 109, 215); 
     min-width: 1050px;
    box-sizing: border-box;
    height: 59px;
    position: fixed;
    width: 100vw;
-   text-align: center;
+   text-align: center; */
+   display: flex;
    
    
 
