@@ -1,37 +1,36 @@
-h1 {
-font-size: 50px;
-color:  rgb(238, 237, 237);
-background-color: rgb(109, 109, 215);
-display: inline-block;
-padding-top: 0px;
-margin: auto;
+.contain {
+display: flex;
+align-items: center;
+max-width: 100%;
+background-color:  rgb(246, 246, 246);
 
 
 
 
 }
-/*
-#banner { background-color: rgb(109, 109, 215); 
-    min-width: 1050px;
-   box-sizing: border-box;
-   height: 59px;
-   position: fixed;
-   width: 100vw;
-   text-align: center; */
-   
-   
-   
 
-*/
-
-#banner {
-    display: flex;
-    flex: 1;
-    flex-direction: roq;
-    width: 600px;
+.contain > a {
+    padding-left: 130px;
+    width: 30vw;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 35px;
+    color: rgb(96, 96, 96);
+    text-decoration: none;
     
+    }
 
-}
+.contain > h1 {
+    text-align: left;
+    width: 50vw;
+    color: rgb(96, 96, 96);
+    padding-right: 130px;
+    
+    font-size: 35px;
+    
+    }
+
+a:hover {color: brown;}
 
 
 img {margin: auto;
@@ -73,20 +72,10 @@ margin: auto;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-.home:hover {color: rgb(255, 255, 255);}
 /*
-.home {
-   
+.home:hover {color: rgb(255, 255, 255);}
 
-    font-size: 50px;
-    text-decoration: none;
-    color: black;
-    position: absolute;
-    margin-left: -330px;
-    margin-right: 0px;
-   
-} */
+*/
 
 p {font-size: 22px;
 background-color:  rgb(238, 237, 237);
@@ -97,6 +86,6 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 body {
     background-image: url(https://media.istockphoto.com/id/1399931897/vector/white-marble-texture-background-used-in-design-for-skin-tile-wallpaper-interiors-backdrop.jpg?s=612x612&w=0&k=20&c=DjVPzwZlABt2pk1ue094xXOIko_8kOLxlKkgZgk1Se8=); 
-margin: 0;
+ margin: 0;
 }
 
