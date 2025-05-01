@@ -1,32 +1,37 @@
+@media only screen and (max-width:600px)
+{
+    .contain {width: 1050px;}
+}
+
+
 .contain {
 display: flex;
 align-items: center;
-max-width: 100%;
 background-color:  rgb(246, 246, 246);
-
 
 
 
 }
 
 .contain > a {
-    padding-left: 130px;
-    width: 30vw;
-    flex-grow: 1;
-    text-align: center;
+    
+  
     font-size: 35px;
     color: rgb(96, 96, 96);
     text-decoration: none;
+    margin-right: auto;
+    margin-left: 50px;
+    
+    
     
     }
 
 .contain > h1 {
-    text-align: left;
-    width: 50vw;
     color: rgb(96, 96, 96);
-    padding-right: 130px;
-    
     font-size: 35px;
+    min-width: 0;
+    margin-right: 50px;
+    
     
     }
 
