@@ -1,6 +1,7 @@
 @media only screen and (max-width:600px)
 {
-    .mid .contain img {width: 1050px;}
+    .mid .contain img {max-width: 300px;
+                       min-width: 300px;}
 }
 
 
