@@ -62,8 +62,7 @@ ol {width: 66vw;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    padding-left: 15px;
-    padding-right: 15px;}
+  }
 
 h2 {text-align: center;
 padding-top: 2em;
@@ -91,6 +90,6 @@ body {
  margin: 0;
 }
 
-@media (max-width: 767px)
+@media (max-width: 1000px)
 
 { .mid {width:100vw;}} 
