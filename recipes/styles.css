@@ -91,3 +91,6 @@ body {
  margin: 0;
 }
 
+@media (max-width: 767px)
+
+{ .mid {width:100vw;}} 
