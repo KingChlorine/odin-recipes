@@ -90,6 +90,6 @@ body {
  margin: 0;
 }
 
-@media (max-width: 1000px)
+@media screen and (max-width: 520px)
 
 { .mid {width:100vw;}} 
