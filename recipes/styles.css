@@ -32,12 +32,19 @@ background-color:  rgb(246, 246, 246);
 
 a:hover {color: brown;}
 
+.photo {
+    display: flex;
+    object-fit: cover;
+    flex-basis: 0;
+    flex-grow: 1;
+}
+
 
 img {margin: auto;
 display: block;
-width: 66vw;
+width: 100%;
 aspect-ratio: 1;
-max-width: 100%;
+height: auto;
 }
 
 ul {width: 66vw;
@@ -92,4 +99,12 @@ body {
 
 @media screen and (max-width: 1440px)
 
-{ .mid {width:100vw;}} 
+{ .mid {width:100vw;}
+
+img {width:1440px;
+height: auto;
+aspect-ratio: 1;}
+
+.contain {font-size: 16px;}
+
+} 
