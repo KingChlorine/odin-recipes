@@ -102,7 +102,7 @@ body {
 { .mid {width:100vw;}
 
 img {width:1440px;
-height: auto;
+    height: 600px;
 aspect-ratio: 1;}
 
 .contain {font-size: 16px;}
