@@ -2,6 +2,7 @@
 display: flex;
 align-items: center;
 background-color:  rgb(246, 246, 246);
+flex-shrink: 1;
 
 
 
@@ -41,10 +42,9 @@ a:hover {color: brown;}
 
 
 img {margin: auto;
-display: block;
-width: 100%;
-aspect-ratio: 1;
+display: flex;
 height: auto;
+flex-shrink: 1;
 }
 
 ul {width: 66vw;
@@ -101,10 +101,11 @@ body {
 
 { .mid {width:100vw;}
 
-img {width:1440px;
+.contain > img {width:1440px;
     height: 100px;
 }
 
-a h1 {font-size: 16px;}
+.contain > h1 {font-size: 16px;}
 
+.contain > a {font-size: 16px;}
 } 
