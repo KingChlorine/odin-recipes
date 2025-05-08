@@ -99,13 +99,17 @@ body {
 
 @media screen and (max-width: 1440px)
 
-{ .mid {width:100vw;}
+{ .mid {width:100vw;
+font-size: 9px;}
 
 .contain > img {width:1440px;
     height: 100px;
 }
 
-.contain > h1 {font-size: 16px;}
+.contain > h1 {font-size: 11px;}
 
-.contain > a {font-size: 16px;}
+.contain > a {font-size: 11px;}
+
+img {height: 600px;
+width: auto; }
 } 
