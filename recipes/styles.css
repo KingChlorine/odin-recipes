@@ -69,11 +69,12 @@ ol {width: 66vw;
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
+    
   }
 
 h2 {text-align: center;
 padding-top: 2em;
-padding-bottom: 2emx;
+padding-bottom: 2em;
 font-size: 2em;
 background-color:  rgb(238, 237, 237);
 margin: auto;
@@ -100,16 +101,20 @@ body {
 @media screen and (max-width: 1440px)
 
 { .mid {width:100vw;
-font-size: 9px;}
+font-size: 10px;}
 
 .contain > img {width:1440px;
     height: 100px;
 }
 
-.contain > h1 {font-size: 11px;}
+.contain > h1 {font-size: 14px;}
 
-.contain > a {font-size: 11px;}
+.contain > a {font-size: 14px;}
 
-img {height: 600px;
+img {height: 200px;
 width: auto; }
+
+.contain > h2 {
+    font-size: 12px;
+}
 } 
