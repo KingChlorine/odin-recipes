@@ -29,6 +29,7 @@ width: 100vw;
     min-width: 0;
     width: 33vw;
     text-align: center;
+   
     
     
     }
@@ -39,13 +40,16 @@ a:hover {color: brown;}
    display: flex;
    height: 400px;
    justify-content: center;
-   width: 66vw;
-   background-color: rgb(246, 246, 246);
-   margin: auto;
    padding-top: 8em;
-  
-  
-}
+   
+  }
+
+.box {
+    background-color: rgb(246, 246, 246);
+    width: 1280px;
+    margin: auto;
+
+}  
 
 
     
