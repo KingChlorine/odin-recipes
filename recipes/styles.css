@@ -122,8 +122,7 @@ font-size: 16px;}
 
 img {
 
-    scale: 1.0;
-    width:800px;
+    width:inherit;
 }
 
 #home {
@@ -142,7 +141,7 @@ h1 {
    
 }
 
-.contain {
+.nav {
     display: flex;
     width: 800px;
     margin: auto;
@@ -159,6 +158,7 @@ center this one relative to that one */
     align-items: center;
     padding: 0px;
     width:800px;
+    scale:1.0;
     margin: auto;
     background-color:  rgb(246, 246, 246);
     
@@ -217,7 +217,16 @@ p {
 
 @media screen and (max-width:700px) {
 
+   
+    .nav {width:100vw;}
 
+    .image {width: 100vw;}
+
+    .description {width: 100vw;}
+
+    .ingredients {width: 100vw;}
+
+    .steps {width: 100vw;}
 
   
     
