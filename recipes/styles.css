@@ -203,10 +203,7 @@ ul {
 
 }
 
-p, h2 {
-    padding-left: 40px;
-    
-}
+
 
 .steps {
     display: flex;
@@ -219,11 +216,13 @@ p, h2 {
 
 @media screen and (max-width:600px) {
 
-   
+* { margin: 0px;
+padding: 0px;}   
 
 .contain {
    max-width: 100%;
    font-size: 1em;
+   padding-left: 1rem;
     
 } 
 
@@ -246,13 +245,21 @@ img {max-width: 100%;}
 
 .description {max-width: 100%;}
 
-.ingredients {max-width: 100%;}
+.ingredients {max-width: 100%;
+}
 
 .steps {
     max-width: 100%;
 }
 
-  
+h2 {
+    display: flex;
+    padding: 0;
+    align-self: center;
+}
+
+p , li {padding-left: 1rem;
+        padding-right: 1rem;}
     
 }
 
