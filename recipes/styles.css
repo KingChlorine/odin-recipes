@@ -126,13 +126,30 @@ img {
     width:800px;
 }
 
+#home {
+    display: flex;
+    align-self: center;
+    width: 266.66px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    
+}
+
+h1 {
+    display: flex;
+   
+}
+
 .contain {
     display: flex;
-    justify-content: center;
     width: 800px;
     margin: auto;
+    background-color:  rgb(246, 246, 246);
     
-} /* The margin might throw alignment on mobile, not sure, 
+} 
+/* The margin might throw alignment on mobile, not sure, 
 if this doesn't work I might try put this in a container and
 center this one relative to that one */
 
@@ -141,6 +158,10 @@ center this one relative to that one */
     flex-direction: column;
     align-items: center;
     padding: 0px;
+    width:800px;
+    margin: auto;
+    background-color:  rgb(246, 246, 246);
+    
 }
 
 /*
@@ -160,6 +181,7 @@ center this one relative to that one */
     flex-direction: column;
     width: 800px;
     margin: auto;
+    background-color:  rgb(246, 246, 246);
 }
 
 
@@ -176,6 +198,7 @@ ul {
     flex-direction: column;
     width: 800px;
     margin: auto;
+    background-color:  rgb(246, 246, 246);
 }
 
 p {
@@ -189,6 +212,14 @@ p {
     flex-direction: column;
     width: 800px;
     margin: auto;
+    background-color:  rgb(246, 246, 246);
 }
 
+@media screen and (max-width:700px) {
+
+
+
+  
+    
+}
 
