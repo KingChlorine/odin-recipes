@@ -122,26 +122,28 @@ font-size: 16px;}
 
 img {
 
-    width:inherit;
+    scale: 1.0;
+    width:800px;
 }
 
 #home {
     display: flex;
     align-self: center;
-    width: 266.66px;
+    width: 30%;
     box-sizing: border-box;
     padding-left: 20px;
-    font-size: 30px;
+    font-size: 2em;
     text-decoration: none;
     
 }
 
 h1 {
     display: flex;
+    font-size: 2em;
    
 }
 
-.nav {
+.contain {
     display: flex;
     width: 800px;
     margin: auto;
@@ -158,7 +160,6 @@ center this one relative to that one */
     align-items: center;
     padding: 0px;
     width:800px;
-    scale:1.0;
     margin: auto;
     background-color:  rgb(246, 246, 246);
     
@@ -215,18 +216,27 @@ p {
     background-color:  rgb(246, 246, 246);
 }
 
-@media screen and (max-width:700px) {
+@media screen and (max-width:600px) {
 
    
-    .nav {width:100vw;}
 
-    .image {width: 100vw;}
+.contain {
+   max-width: 100%;
+   font-size: 1em;
+    
+} 
 
-    .description {width: 100vw;}
+.image { max-width: 100%;}
 
-    .ingredients {width: 100vw;}
+img {max-width: 100%;}
 
-    .steps {width: 100vw;}
+.description {max-width: 100%;}
+
+.ingredients {max-width: 100%;}
+
+.steps {
+    max-width: 100%;
+}
 
   
     
