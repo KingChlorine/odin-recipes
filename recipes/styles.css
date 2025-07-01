@@ -1,14 +1,11 @@
-.contain {
+/* .contain {
 display: flex;
 align-items: center;
 background-color:  rgb(231, 231, 231);
 flex-shrink: 1;
 position: fixed;
 width: 100vw;
-
-
-
-}
+} 
 
 .contain > a {
     
@@ -18,9 +15,6 @@ width: 100vw;
     text-decoration: none;
     text-align: center;
   
-    width: 33vw;
-    
-    
     }
 
 .contain > h1 {
@@ -38,18 +32,12 @@ a:hover {color: brown;}
 
 .photo {
    display: flex;
-   height: 400px;
+   height: 200px;
    justify-content: center;
    padding-top: 8em;
    
   }
 
-.box {
-    background-color: rgb(246, 246, 246);
-    width: 1280px;
-    margin: auto;
-
-}  
 
 
     
@@ -96,7 +84,7 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 /*
 .home:hover {color: rgb(255, 255, 255);}
 
-*/
+
 
 p {font-size: 1.5em;
 background-color:  rgb(246, 246, 246);
@@ -115,7 +103,7 @@ body {
         display: flex;
         justify-content: center;
         padding: 20px;}
-@media screen and (max-width: 1440px)
+@media screen and (max-width: 400px)
 
 { .mid {width:100vw;
 font-size: 16px;}
@@ -129,4 +117,78 @@ font-size: 16px;}
 .contain > h2 {
     font-size: 18px;
 }
-} 
+
+*/ 
+
+img {
+
+    scale: 1.0;
+    width:800px;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin: auto;
+    
+} /* The margin might throw alignment on mobile, not sure, 
+if this doesn't work I might try put this in a container and
+center this one relative to that one */
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+}
+
+/*
+.ingredients {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+} */
+
+
+.ingredients {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+}
+
+
+ul {
+   
+    list-style-type: none;
+  
+    
+}
+
+.description {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+}
+
+p {
+    padding-left: 40px;
+    color: red;
+}
+
+.steps {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 800px;
+    margin: auto;
+}
+
+
