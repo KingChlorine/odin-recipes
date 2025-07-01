@@ -227,6 +227,19 @@ p, h2 {
     
 } 
 
+#home {
+
+    
+    font-size: 1.5em;
+    
+}
+
+h1 {
+    
+    font-size: 1.5em;
+   
+}
+
 .image { max-width: 100%;}
 
 img {max-width: 100%;}
