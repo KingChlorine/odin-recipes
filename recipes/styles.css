@@ -134,12 +134,16 @@ img {
     padding-left: 20px;
     font-size: 2em;
     text-decoration: none;
-    
-}
+    color: black;
+    }
+
+#home:hover { color: gray;}
+
 
 h1 {
     display: flex;
     font-size: 2em;
+    
    
 }
 
@@ -219,10 +223,19 @@ ul {
 * { margin: 0px;
 padding: 0px;}   
 
+.d {padding-bottom: 1rem;
+    padding-top: 1rem;}
+
+.i, .s {padding-bottom: 1rem;}
+
+.ingredients {padding-bottom: 1rem;}
+
 .contain {
    max-width: 100%;
-   font-size: 1em;
+   font-size: 1.5em;
    padding-left: 1rem;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
     
 } 
 
@@ -259,7 +272,8 @@ h2 {
 }
 
 p , li {padding-left: 1rem;
-        padding-right: 1rem;}
+        padding-right: 1rem;
+        padding-bottom: 1rem;}
     
 }
 
